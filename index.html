@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['Inter', 'sans-serif'],
+        },
+      }
+    }
+  }
+</script>
+<link rel = "icon" href = 
+"icon.png" 
+        type = "image/x-icon">
+    <title>
+       i-Save</title>
+</head>
+<body>
+
+   <div class="flex justify-center"
+           >      <div class=" mt-7 mb-3 xl:w-96">
+          <label for="exampleText0" class="form-label inline-block mb-2 text-gray-700"
+            >Enter URL</label
+          >
+          <input
+            type="text"
+            class="
+            form-control
+            block
+            w-full
+            px-3
+            py-1.5
+            text-base
+            font-normal
+            text-gray-700
+            bg-white bg-clip-padding
+            border border-solid border-gray-300
+            rounded
+            transition
+            ease-in-out
+            m-0
+            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+          "
+       
+        
+            id="textbox"
+            placeholder="Text input"
+          />
+          <div class="flex justify-center"
+          >      <div class=" mt-7 mb-3 xl:w-96">
+         <label for="exampleText0" class="form-label inline-block mb-2 text-gray-700"
+           >Enter The Text </label
+         >
+
+          <input
+          type="text"
+          class="
+          form-control
+          block
+          w-full
+          px-3
+          py-1.5
+          text-base
+          font-normal
+          text-gray-700
+          bg-white bg-clip-padding
+          border border-solid border-gray-300
+          rounded
+          transition
+          ease-in-out
+          m-0
+          focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+        "
+     
+        placeholder="Example label"
+          id="Subject"
+          placeholder="Subject"
+        />
+
+
+
+          
+          <button type="button" class="inline-block mt-7  px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red-700   focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-850 ease-in-out" onclick="add()">Add URL</button>
+          <button type="button" class="inline-block mt-7  px-6 py-2.5 bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-700   focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-850 ease-in-out" onclick="show()">Show URL</button>
+          <button type="button" class="inline-block mt-7  px-6 py-2.5 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-700   focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-850 ease-in-out" onclick="deleted()">Delete URL</button>
+          
+          <div class="flex justify-center mt-7" >
+            <ul class="bg-white rounded-lg border border-red-800 w-96 text-blue-900 font-bold"  >
+                <li>😊</li>
+              <li class="px-6 py-2 border-b border-red-800 w-full rounded-t-lg" id="lorem"></li>
+             <hr>
+            </ul>
+          </div>
+        </div>  
+        </div>
+        
+       <hr>
+      
+     
+        <footer class="mt-7 bg-gray-200 text-center lg:text-left">
+            <div class="text-gray-700 text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+              
+              <a class="text-gray-800" href="https://tailwind-elements.com/">Made with ❤️ by Saksham </a>
+            </div>
+          </footer>
+
+    <script src="setting.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+</body>
+</html>

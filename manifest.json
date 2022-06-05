@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Spark+",
+    "action": {
+        "default_popup": "index.html",
+        "service_worker": "setting.js",
+        "default_icon": "icon.png"
+    }
+}
